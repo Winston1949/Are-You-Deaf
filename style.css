@@ -1,0 +1,292 @@
+.enter-page {
+  background: url("https://media.giphy.com/media/0J9uKGDhCY1AFZ57Fw/giphy.gif") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#text{
+   font-family: 'Press Start 2P', cursive;
+   text-align: center;
+   margin-top: 25%;
+   color: red;
+   filter: blur(3px);
+}
+
+#blureffect{
+  filter: blur(2px);
+}
+/* ----------- Home Page----------- */
+
+.home{
+  background: url("https://media.giphy.com/media/0J9uKGDhCY1AFZ57Fw/giphy.gif") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#logo-container{
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+#logo{
+  height: auto;
+  width: 200px;
+}
+
+.navigation-container{
+  font-family: 'Press Start 2P', cursive;
+  margin-left: 7%;
+  margin-top: 1%;
+  font-size: 1em;
+  font-weight: 300;
+
+}
+
+.navigation-unordered-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-list-item{
+  display: inline;
+}
+
+.navigation-link-styling{
+  text-decoration: none;
+  color: #000;
+}
+
+.navigation-link-styling:hover{
+    background-color: red;
+}
+
+/* ----------- About PAGE ----------- */
+.about-container{
+
+  text-align: center;
+  font-size: 2em;
+  margin-top: 10%;
+  width: 50%;
+  margin-left: 25%;
+}
+
+
+
+/* ----------- ARCHIVE PAGE ----------- */
+
+.archives-container {
+    margin-top: 8%;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.archive-collections-unordered-list{
+  list-style-type: none;
+  display: table;
+  margin: 0 auto;
+}
+
+.archive-collection-list-item{
+  margin: 10px 0;
+  font-size: 2em;
+  text-align: center;
+}
+
+.archive-collection-link-item{
+  text-decoration: none;
+  color: #000;
+}
+
+.archive-collection-link-item:hover {
+  background-color: red;
+}
+
+/* ----------- SMALL THINGS 19 PAGE ----------- */
+
+.small-things-body{
+
+  background-color: #fff
+}
+
+.archive-title{
+
+
+  text-align: right;
+  font-family: 'Press Start 2P', cursive;
+  filter: blur(2px);
+}
+
+.gallery-container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+
+
+}
+
+.small-things-gallery-image{
+  height: auto;
+  padding-bottom: 20px;
+}
+
+/* ----------- EIIRP 19 PAGE ----------- */
+.eiirp-19-gallery-image{
+
+  height: auto;
+  padding-bottom: 20px;
+}
+
+/* ----------- Candy 20 PAGE ----------- */
+.candy-20-gallery-image{
+
+  height: auto;
+  padding-bottom: 20px;
+}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+}
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+    .text {
+    margin-top: 100%;
+    font-size: 2em;
+    }
+
+    #logo-container {
+    margin-left: 39%;
+    margin-top: 10%;
+    }
+
+    #logo {
+    height: auto;
+    width: 240px;
+    }
+
+    .navigation-container {
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 5%;
+    font-size: 2em;
+    font-weight: 300;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 5%;
+    }
+
+    .archives-container {
+    margin-top: 42%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.7em;
+    }
+
+    .about-container {
+    text-align: center;
+    font-size: 3.2em;
+    margin-top: 25%;
+    width: 80%;
+    margin-left: 10%;
+    }
+
+    .archive-title {
+    text-align: left;
+    font-family: 'Press Start 2P', cursive;
+    filter: blur(2px);
+    margin-top: 10%;
+    }
+
+
+    .gallery-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}
